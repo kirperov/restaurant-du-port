@@ -1,0 +1,115 @@
+/*
+Theme Name: WP Bootstrap Starter Child
+Theme URI: https://afterimagedesigns.com/wp-bootstrap-starter/
+Template: wp-bootstrap-starter
+Author: Afterimage Designs
+Author URI: https://afterimagedesigns.com/
+Description: The best WordPress starter theme based on the most powerful frameworks in the world: "_s" (by Automattic, the main people behind WordPress development), Twitter Bootstrap (the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web) and Font Awesome (or Fontawesome, a full suite of 675+ pictographic icons for easy scalable vector graphics on websites). This theme, like WordPress, is licensed under the GPL. You can use this theme as base for your next WordPress theme project and you are allowed to remove the link at the footer or do whatever you want. Your feedback on how we can continuously improve this WordPress Starter Theme Bootstrap will be highly appreciated. Page templates includes Right-sidebar (default page template), Left-Sidebar, Full-Width, Blank with container, Blank without container Page. Other features - Currently using Bootstrap v4.0.0 , Widgetized footer area, WooCommerce ready, Compatible with Contact Form 7, Compatible with Visual Composer, Compatible with Elementor Page Builder. This theme will be an active project which we will update from time to time. Check this page regularly for the updates.
+Tags: blog,custom-menu,featured-images,threaded-comments,translation-ready,right-sidebar,custom-background,e-commerce,theme-options,sticky-post,full-width-template
+Version: 3.0.11.1522934596
+Updated: 2018-04-05 16:23:16
+
+*/
+
+/*MENU*/
+
+.menu li {
+    padding: 1em;
+    color: aliceblue;
+
+    justify-content: space-around;
+    align-content: space-around;
+    
+
+}
+
+/*CONTENT TEXT STYLE*/
+
+
+h1,
+h2 {
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    color: #41d57f;
+}
+
+
+p,
+li {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    opacity: 0.7;
+    list-style-type: none;
+
+}
+
+.intro_text {
+    text-align: center;
+}
+
+hr {
+    border: none;
+    /* enleve les frontieres */
+    background-color: purple;
+    /* couleur des lignes */
+    color: purple;
+    /* couleur de ligne pour IE6-7 */
+    height: 2px;
+    /* Epaisseur */
+    width: 300px;
+}
+
+
+/*TEAM AND PARTENERS*/
+
+#our_team,
+#parteners {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+/*CONTACTE*/
+.img_icon_list li {
+    margin-bottom: 30px;
+}
+
+/*BUTTON GO TO TOP*/
+.back-to-top {
+    position: fixed;
+    bottom: 2em;
+    right: 0px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+}
+
+.back-to-top:hover {
+    text-decoration: none;
+}
+
+/*FOOTER*/
+
+
+
+.copyright {
+    color: aliceblue;
+    font-size: 15px;
+}
+
+#facebook, #instagram, #twitter {
+    width: 60px;
+}
+ 
+
+ .site-footer {
+    align-content: center;
+     display: flex;
+     flex-direction: row;
+}
+
+ 
